@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Image</title>
+    <style>
+        body {
+            margin: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* 
+What is a Hero Section?
+
+As the first thing people see when they visit your 
+website, a hero section is the area that immediately 
+shows up on the screen under your logo and menu. 
+
+This portion of the page should ideally include 
+information about four things:
+
+What you have to offer
+Why people should trust you
+The benefits of working with you
+What action they should take next
+*/
+        .hero-image {
+            /* The image used */
+            background-image: url("images/sea.jfif");
+            /* Used if the image is unavailable */
+            background-color: #cccccc;
+            /* set a specified height */
+            height: 500px;
+            /* Center the image */
+            background-position: center;
+            /* Do not repeat the image */
+            background-repeat: no-repeat;
+            /* Resize the background image to cover the entire container */
+            background-size: cover;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size: 50px;">I AM MOHNISH</h1>
+            <H3>I AM A SOFTWARE DEVLOPER</H3>
+            <button>Hire me</button>
+        </div>
+    </div>
+    <p>Page content..</p>
+    <p>Note that this technique will also make the image responsive: Resize the browser window to see the effect.</p>
+    <br /> <br />
+    <h3> HERO IMAGE EXAMPLE</h3>
+    <img src="images/hero_image_example.webp" alt="">
+    <br /> <br />
+    <h3> HERO SECTION EXAMPLE</h3>
+    <img src="images/hero_section_example.jpg" alt="">
+</body>
+
+</html>
